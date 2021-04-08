@@ -1,3 +1,4 @@
+```bash
 grep '^A' scrawledHost.log
 grep '*A*' scrawledHost.log
 grep 'A' scrawledHost.log
@@ -16,3 +17,4 @@ grep -o 'AS[0-9]*' scrawledHost.log | sort -u
 tldr tr
 grep -o 'AS[0-9]*' newHost.log >> scrawledASN.log
 cat scrawledASN.log | sort -u
+```
